@@ -321,6 +321,9 @@ class _PinInputTextFieldState extends State<PinInputTextField>
           errorBorder: InputBorder.none,
           focusedErrorBorder: InputBorder.none,
           disabledBorder: InputBorder.none,
+            
+          // Remove filling
+          filled: false,
         ),
       ),
     );
